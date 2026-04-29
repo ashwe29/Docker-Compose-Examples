@@ -1,0 +1,6 @@
+services:
+  frontend: 
+    build: ./angular
+    container_name: angular-container
+    ports: 
+      - "8080:80"
